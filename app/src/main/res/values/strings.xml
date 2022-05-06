@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MII</string>
+    <string name="input_count">Введите количество кластеров</string>
+    <string name="go_iteration">Go iteration!</string>
+    <string name="you_dont_in_params_toast">Вы ввели не все параметры!</string>
+    <string name="trapation_1">Трапеция 1</string>
+    <string name="trapation_2">Трапеция 2</string>
+    <string name="input_hint">ввод</string>
+    <string name="add_button">Добавить</string>
+    <string name="d_param">d:</string>
+    <string name="c_param">c:</string>
+    <string name="b_param">b:</string>
+    <string name="a_param">a:</string>
+    <string name="x_param">X:</string>
+    <string name="a_edit">a</string>
+    <string name="b_edit">b</string>
+    <string name="c_edit">c</string>
+    <string name="d_edit">d</string>
+    <string name="a2_param">a2:</string>
+    <string name="a2_hint">a2</string>
+    <string name="b2_param">b2:</string>
+    <string name="b2_Hint">b2</string>
+    <string name="c2_param">c2:</string>
+    <string name="c2_hint">c2</string>
+    <string name="d2_param">d2:</string>
+    <string name="d2_hint">d2</string>
+    <string name="x2_param">X2:</string>
+    <string name="x2_hint">x2</string>
+    <string name="add_to_one_trapation_buttom">Добавить на 1 трапецию</string>
+    <string name="add_to_two_trapetion_button">Добавить на 2 трапецию</string>
+    <string name="see_points_button">Посмотреть точки</string>
+    <string name="lab_1_button">Лаба 1</string>
+    <string name="lab_2_button">Лаба 2</string>
+    <string name="lab_3_button">Лаба 3</string>
+</resources>

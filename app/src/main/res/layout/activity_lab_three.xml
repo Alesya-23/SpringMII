@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LabThreeActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/container_parameters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            app:layout_constraintBottom_toTopOf="@id/container_parameters2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/a_parameter_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/a_param"
+                android:textAlignment="center"
+                android:textColor="@color/purple_500"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/a_parameter_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="@string/a_edit"
+                android:inputType="number"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/b_parameter_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/b_param"
+                android:textAlignment="center"
+                android:textColor="@color/purple_500"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/b_parameter_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="@string/b_edit"
+                android:inputType="number"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/c_parameter_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/c_param"
+                android:textAlignment="center"
+                android:textColor="@color/purple_500"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/c_parameter_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="@string/c_edit"
+                android:inputType="number"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/d_parameter_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/d_param"
+                android:textAlignment="center"
+                android:textColor="@color/purple_500"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/d_parameter_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="@string/d_edit"
+                android:inputType="number"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/x_coordinate_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/x_param"
+                android:textAlignment="center"
+                android:textColor="@color/purple_500"
+                android:textSize="22sp" />
+
+            <EditText
+                android:id="@+id/x_coordinate_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="@string/input_hint"
+                android:inputType="number"
+                android:text=""
+                android:textSize="22sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/container_parameters2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@id/chart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/container_parameters">
+
+            <TextView
+                android:id="@+id/a2_parameter_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/a2_param"
+                android:textAlignment="center"
+                android:textColor="@color/purple_500"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/a2_parameter_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="@string/a2_hint"
+                android:inputType="number"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/b2_parameter_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/b2_param"
+                android:textAlignment="center"
+                android:textColor="@color/purple_500"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/b2_parameter_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="@string/b2_Hint"
+                android:inputType="number"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/c2_parameter_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/c2_param"
+                android:textAlignment="center"
+                android:textColor="@color/purple_500"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/c2_parameter_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="@string/c2_hint"
+                android:inputType="number"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/d2_parameter_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/d2_param"
+                android:textAlignment="center"
+                android:textColor="@color/purple_500"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/d2_parameter_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="@string/d2_hint"
+                android:inputType="number"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/x2_coordinate_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="@string/x2_param"
+                android:textAlignment="center"
+                android:textColor="@color/purple_500"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/x2_coordinate_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="@string/x2_hint"
+                android:inputType="numberDecimal"
+                android:text=""
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/chart"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            app:layout_constraintBottom_toTopOf="@id/button_add_to_one"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/container_parameters2" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_add_to_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:backgroundTint="@color/purple_700"
+            android:text="@string/add_to_one_trapation_buttom"
+            app:layout_constraintBottom_toTopOf="@id/button_add_to_two"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/chart" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_add_to_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:backgroundTint="@color/purple_700"
+            android:text="@string/add_to_two_trapetion_button"
+            app:layout_constraintBottom_toTopOf="@id/button_see_data_points"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/button_add_to_one" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_see_data_points"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:backgroundTint="@color/purple_700"
+            android:text="@string/see_points_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/button_add_to_two" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
